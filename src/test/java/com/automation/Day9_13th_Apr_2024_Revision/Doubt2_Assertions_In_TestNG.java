@@ -1,5 +1,7 @@
 package com.automation.Day9_13th_Apr_2024_Revision;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -22,7 +24,7 @@ public class Doubt2_Assertions_In_TestNG {
 		// driver.findElement(By.id("input-email")).sendKeys("seleniumpanda99@gmail.com");
 		// System.out.println("ciao");
 	
-		Assert.assertTrue(driver.findElement(By.xpath("//h2[contains(text(), 'Returning Customer')]")).isDisplayed());
+		AssertJUnit.assertTrue(driver.findElement(By.xpath("//h2[contains(text(), 'Returning Customer')]")).isDisplayed());
 		driver.findElement(By.id("input-email")).sendKeys("seleniumpanda@gmail.com");
 		driver.findElement(By.id("input-password")).sendKeys("Selenium@12345");
 		driver.findElement(By.cssSelector("input.btn.btn-primary")).click();
@@ -30,7 +32,7 @@ public class Doubt2_Assertions_In_TestNG {
 		String expectedWarningMessage = "Warning: No match for E-Mail Address and/or Password.";
 		String actualWarningMessage = driver.findElement(By.xpath("//div[contains(@class, 'alert-dismissible')]")).getText();
 		
-		Assert.assertEquals(actualWarningMessage, expectedWarningMessage);
+		AssertJUnit.assertEquals(actualWarningMessage, expectedWarningMessage);
 	}
 	
 }

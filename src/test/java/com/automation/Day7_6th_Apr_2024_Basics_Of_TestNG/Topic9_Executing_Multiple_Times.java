@@ -1,6 +1,7 @@
 package com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 // sometimes we need to execute our code multiple times to make sure it works
 

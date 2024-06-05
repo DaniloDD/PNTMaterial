@@ -1,5 +1,7 @@
 package com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -16,7 +18,7 @@ public class Topic8_Skipping_Being_Skipped {
 	@Test(priority=1)
 	public void tc1() {
 		System.out.println("Hello");
-		Assert.fail();
+		AssertJUnit.fail();
 		
 	}
 	

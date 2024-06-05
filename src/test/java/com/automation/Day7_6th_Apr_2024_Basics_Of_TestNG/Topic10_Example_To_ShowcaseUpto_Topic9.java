@@ -1,5 +1,7 @@
 package com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -41,7 +43,7 @@ public class Topic10_Example_To_ShowcaseUpto_Topic9 {
 		driver.findElement(By.cssSelector("input.btn.btn-primary")).click();
 		System.out.println("This is what i expect to run 1");
 	}
-	
+
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();

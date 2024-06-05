@@ -1,5 +1,7 @@
 package com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -38,7 +40,7 @@ public class Topic13_SimpleExampleOfAssert {
 		String expectedTitle = "Account Login";
 		String actualTitle = driver.getTitle();
 
-		Assert.assertTrue(actualTitle.contains(expectedTitle));
+		AssertJUnit.assertTrue(actualTitle.contains(expectedTitle));
 
 		// assert and choose getTitle and getCurrentUrl
 		// you can get the currenturl using this:
@@ -47,7 +49,7 @@ public class Topic13_SimpleExampleOfAssert {
 		String expectedCurrentUrl = "https://tutorialsninja.com/demo/index.php?route=account/login";
 		String actualCurrentUrl = driver.getCurrentUrl();
 
-		Assert.assertEquals(actualCurrentUrl, expectedCurrentUrl);
+		AssertJUnit.assertEquals(actualCurrentUrl, expectedCurrentUrl);
 
 	}
 
@@ -62,9 +64,9 @@ public class Topic13_SimpleExampleOfAssert {
 		WebElement emailTextbox = driver.findElement(By.id("input-email"));
 		WebElement passwordTextBox = driver.findElement(By.id("input-password"));
 		WebElement loginButton = driver.findElement(By.cssSelector("input.btn.btn-primary"));
-		Assert.assertTrue(emailTextbox.isEnabled() && emailTextbox.isDisplayed());
-		Assert.assertTrue(passwordTextBox.isEnabled() && passwordTextBox.isDisplayed());
-		Assert.assertTrue(loginButton.isEnabled() && loginButton.isDisplayed());
+		AssertJUnit.assertTrue(emailTextbox.isEnabled() && emailTextbox.isDisplayed());
+		AssertJUnit.assertTrue(passwordTextBox.isEnabled() && passwordTextBox.isDisplayed());
+		AssertJUnit.assertTrue(loginButton.isEnabled() && loginButton.isDisplayed());
 
 	}
 

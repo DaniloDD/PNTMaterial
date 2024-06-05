@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day10_14th_Apr_2024_cssSelector.Topic1_Syntax_cssSelectors">
+      <class name="com.automation.Day20_25th_May_2024_MultipleWebElements.Multiple_Webelements">
         <methods>
-          <include name="registerUsingCss"/>
+          <include name="multipleElements"/>
         </methods>
-      </class> <!-- com.automation.Day10_14th_Apr_2024_cssSelector.Topic1_Syntax_cssSelectors -->
+      </class> <!-- com.automation.Day20_25th_May_2024_MultipleWebElements.Multiple_Webelements -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

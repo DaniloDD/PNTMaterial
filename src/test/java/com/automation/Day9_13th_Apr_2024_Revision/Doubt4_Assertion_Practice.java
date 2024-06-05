@@ -1,5 +1,7 @@
 package com.automation.Day9_13th_Apr_2024_Revision;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -21,7 +23,7 @@ public class Doubt4_Assertion_Practice {
 		
 		String actualPrivacyPolicyWarningMessage = driver.findElement(By.xpath("//div[contains(@class, 'alert-dismissible')]")).getText();
 		String expectedPrivacyPolicyWarningMessage = "Warning: You must agree to the Privacy Policy";
-		Assert.assertTrue(actualPrivacyPolicyWarningMessage.contains(expectedPrivacyPolicyWarningMessage));
+		AssertJUnit.assertTrue(actualPrivacyPolicyWarningMessage.contains(expectedPrivacyPolicyWarningMessage));
 		
 		
 		//create 5 more cases for warning messages

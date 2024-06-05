@@ -1,5 +1,8 @@
 package com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -49,7 +52,7 @@ public class Topic11_Assertions_In_TestNG {
 		driver.findElement(By.cssSelector("input.btn.btn-primary")).click();
 		System.out.println("This is what i expect to run 1");
 		
-		Assert.assertTrue(driver.findElement(By.linkText("Edit your account information")).isDisplayed());
+		AssertJUnit.assertTrue(driver.findElement(By.linkText("Edit your account information")).isDisplayed());
 	}
 
 	@Test(priority = 2)
@@ -104,9 +107,9 @@ public class Topic11_Assertions_In_TestNG {
 		String actualWarningMessage = driver.findElement(By.xpath("//div[contains(@class, 'alert-dismissible')]")).getText();
 		
 		// either
-		Assert.assertEquals(actualWarningMessage, expectedWarningMessage);
+		AssertJUnit.assertEquals(actualWarningMessage, expectedWarningMessage);
 		// or
-		Assert.assertTrue(actualWarningMessage.contains(expectedWarningMessage));
+		AssertJUnit.assertTrue(actualWarningMessage.contains(expectedWarningMessage));
 		
 	}
 

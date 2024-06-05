@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-16T15:37:27Z" name="Default suite" finished-at="2024-04-16T15:37:39Z" duration-ms="12278">
+  <suite started-at="2024-05-26T16:44:11Z" name="Default suite" finished-at="2024-05-26T16:44:20Z" duration-ms="8956">
     <groups>
     </groups>
-    <test started-at="2024-04-16T15:37:27Z" name="Default test" finished-at="2024-04-16T15:37:39Z" duration-ms="12278">
-      <class name="com.automation.Day10_14th_Apr_2024_cssSelector.Topic1_Syntax_cssSelectors">
-        <test-method signature="loginUsingCSS()[pri:0, instance:com.automation.Day10_14th_Apr_2024_cssSelector.Topic1_Syntax_cssSelectors@71e9ebae]" started-at="2024-04-16T11:37:27Z" name="loginUsingCSS" finished-at="2024-04-16T11:37:32Z" duration-ms="5788" status="PASS">
+    <test started-at="2024-05-26T16:44:11Z" name="Default test" finished-at="2024-05-26T16:44:20Z" duration-ms="8956">
+      <class name="com.automation.Day19_18th_May_2024_Mouse_Keyboard_Actions.MouseActions">
+        <test-method signature="mouseOperations()[pri:0, instance:com.automation.Day19_18th_May_2024_Mouse_Keyboard_Actions.MouseActions@6e9175d8]" started-at="2024-05-26T12:44:11Z" name="mouseOperations" finished-at="2024-05-26T12:44:20Z" duration-ms="8946" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginUsingCSS -->
-        <test-method signature="registerUsingCss()[pri:0, instance:com.automation.Day10_14th_Apr_2024_cssSelector.Topic1_Syntax_cssSelectors@71e9ebae]" started-at="2024-04-16T11:37:32Z" name="registerUsingCss" finished-at="2024-04-16T11:37:39Z" duration-ms="6482" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerUsingCss -->
-      </class> <!-- com.automation.Day10_14th_Apr_2024_cssSelector.Topic1_Syntax_cssSelectors -->
+        </test-method> <!-- mouseOperations -->
+      </class> <!-- com.automation.Day19_18th_May_2024_Mouse_Keyboard_Actions.MouseActions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

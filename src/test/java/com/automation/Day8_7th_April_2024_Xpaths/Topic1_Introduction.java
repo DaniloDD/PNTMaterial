@@ -1,5 +1,6 @@
 package com.automation.Day8_7th_April_2024_Xpaths;
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

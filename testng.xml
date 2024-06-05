@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.automation.Day9_13th_Apr_2024_Revision.Doubt5_Contains_Keyword_in_Xpaths"/>
+      <class name="com.automation.Day9_13th_Apr_2024_Revision.Doubt2_Assertions_In_TestNG"/>
+      <class name="com.automation.Day12_21st_Apr_2024_Data_Driven_Test.Topic3_RegisterTN_Properties_File"/>
+      <class name="com.java.Day11_20th_Apr_2024_CLasses_And_Objects.Topic8_ClassAssignment"/>
+      <class name="com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG.Topic9_Executing_Multiple_Times"/>
+      <class name="com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG.Topic11_Assertions_In_TestNG"/>
+      <class name="com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG.Topic10_Example_To_ShowcaseUpto_Topic9"/>
+      <class name="com.automation.Day12_21st_Apr_2024_Data_Time_Stamp.Topic1_Date"/>
+      <class name="com.java.Day11_20th_Apr_2024_CLasses_And_Objects.Topic7_Calling_Static_and_NonStatic_Entities"/>
+      <class name="com.automation.Day9_13th_Apr_2024_Revision.Doubt4_Assertion_Practice"/>
+      <class name="com.automation.Day10_14th_Apr_2024_cssSelector.Topic1_Syntax_cssSelectors"/>
+      <class name="com.automation.Day11_20th_Apr_2024_SoftAssert_in_TestNG.Topic4_Exercise_Rediff"/>
+      <class name="com.java.Day11_20th_Apr_2024_CLasses_And_Objects.logic1"/>
+      <class name="com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG.Topic4_Application_TriCombo_Automation"/>
+      <class name="com.automation.Day12_21st_Apr_2024_Data_Driven_Test.Class_Assignement"/>
+      <class name="com.automation.Day8_7th_April_2024_Xpaths.Topic2_Advanced_Xpaths"/>
+      <class name="com.automation.Day15_4th_May_2024_Application_of_Encapsulation.LoginTest"/>
+      <class name="com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG.Topic2_Annotations_TestNG_Exercise"/>
+      <class name="com.automation.Day13_27th_Apr_2024_Waits_In_Selenium.Topic1_UnderstandingWaits"/>
+      <class name="com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG.Topic6_Enable_Disable_TestCases"/>
+      <class name="com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG.Topic13_SimpleExampleOfAssert"/>
+      <class name="com.java.Day10_14th_apr_2024_Methods.Topic4_ReturnTypeInMethods"/>
+      <class name="com.automation.Day13_27th_Apr_2024_Understanding_Alerts_in_Depth.Topic1_Doubt_Clearing_Asserts_SoftAsserts"/>
+      <class name="com.automation.Day8_7th_April_2024_Xpaths.Topic3_Exercise"/>
+      <class name="com.automation.Day12_21st_Apr_2024_ChromeOptions.Topic1_ChromeOptions"/>
+      <class name="com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG.Topic8_Skipping_Being_Skipped"/>
+      <class name="com.automation.Day9_13th_Apr_2024_Revision.Doubt1_Xpaths"/>
+      <class name="com.automation.Day8_7th_April_2024_Xpaths.Topic1_Introduction"/>
+      <class name="com.java.Day11_20th_Apr_2024_CLasses_And_Objects.Discussion"/>
+      <class name="com.java.Day11_20th_Apr_2024_CLasses_And_Objects.Topic6_How_To_create_An_Object"/>
+      <class name="com.automation.Day14_28th_Apr_2024_Data_Provider.Topic2_DataProvider_With_LoginExample"/>
+      <class name="com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG.Topic12_Assert_Class_inDepth"/>
+      <class name="com.automation.Day13_27th_Apr_2024_Waits_In_Selenium.Topic2_Class_Assignement"/>
+      <class name="com.automation.Day14_28th_Apr_2024_Data_Provider.Topic3_DataProvider_With_RegisterExample"/>
+      <class name="com.java.Day11_20th_Apr_2024_CLasses_And_Objects.Topic3_What_Is_Static"/>
+      <class name="com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG.Topic5_Prioritizing_TestCases"/>
+      <class name="com.automation.Day14_28th_Apr_2024_Data_Provider.Topic1_Rules_Of_DataProvider"/>
+      <class name="com.automation.Day9_13th_Apr_2024_Revision.Doubt3_Assertions_In_Selenium"/>
+      <class name="com.automation.Day12_21st_Apr_2024_Data_Driven_Test.Topic2_Properties_file"/>
+      <class name="com.automation.Day11_20th_Apr_2024_SoftAssert_in_TestNG.Topic1_SoftAssert_TestNG"/>
+      <class name="com.automation.Day16_5th_May_2024_suiteB_Register.RegisterTest_Part1"/>
+      <class name="com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG.Topic3_TriCombo"/>
+      <class name="com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG.Topic2_Annotations_TestNG"/>
+      <class name="com.automation.Day11_20th_Apr_2024_SoftAssert_in_TestNG.Topic3_Facebook_Dropdown"/>
+      <class name="com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG.Topic7_Dependencies_Between_TestCases"/>
+      <class name="com.automation.Day11_20th_Apr_2024_SoftAssert_in_TestNG.Topic2_SoftAssert_Automation"/>
+      <class name="com.automation.Day16_5th_May_2024_suiteB_Register.RegisterTest_Part3"/>
+      <class name="com.automation.Day16_5th_May_2024_suiteB_Register.RegisterTest_Part2"/>
+      <class name="com.java.Day11_20th_Apr_2024_CLasses_And_Objects.Topic2_Conncetion_Between_Classes"/>
+      <class name="com.automation.Day16_5th_May_2024_suiteA_Login.LoginTest_Part3"/>
+      <class name="com.automation.Day15_4th_May_2024_Application_Inheritance.Topic1_LoginTest"/>
+      <class name="com.automation.Day16_5th_May_2024_suiteA_Login.LoginTest_Part2"/>
+      <class name="com.automation.Day16_5th_May_2024_suiteA_Login.LoginTest_Part1"/>
+      <class name="com.automation.Day16_5th_May_2024_suiteC_SearchProdcut.SearchTest_Part1"/>
+      <class name="com.automation.Day15_4th_May_2024_Application_Inheritance.SearchProdcutTest"/>
+      <class name="com.java.Day11_20th_Apr_2024_CLasses_And_Objects.Topic1_Introduction_to_Classes"/>
+      <class name="com.automation.Day12_21st_Apr_2024_Alerts_PopUps.Topic1_How_To_Handle_Alerts_PopUps"/>
+      <class name="com.automation.Day16_5th_May_2024_suiteC_SearchProdcut.SearchTest_Part3"/>
+      <class name="com.automation.Day16_5th_May_2024_suiteC_SearchProdcut.SearchTest_Part2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

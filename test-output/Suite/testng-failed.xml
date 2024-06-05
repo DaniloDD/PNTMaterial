@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.automation.Day16_5th_May_2024_TestNG_retry_failed_TestCases.First_Way_LoginTest_retry_failed">
+        <methods>
+          <include name="invalidEmailValidPassword"/>
+          <include name="invalidCredentials"/>
+          <include name="validCredentials"/>
+          <include name="setup"/>
+          <include name="validEmailinalidPassword"/>
+          <include name="noCredentials"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.Day16_5th_May_2024_TestNG_retry_failed_TestCases.First_Way_LoginTest_retry_failed -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

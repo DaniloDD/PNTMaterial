@@ -1,5 +1,7 @@
 package com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -42,6 +44,7 @@ public class Topic4_Application_TriCombo_Automation {
 		driver.findElement(By.name("agree")).click();
 		driver.findElement(By.cssSelector("input.btn.btn-primary")).click();
 	}
+	
 	
 	@AfterMethod
 	public void tearDown() {
